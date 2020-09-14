@@ -1,4 +1,4 @@
-# Python for Climate Physics  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AJueling/python_climate_physics.git/master)
+# Python for Climate Physics  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AJueling/python_climate_physics.git/master?urlpath=lab)
 This is a collection of jypyter notebooks for an introductory workshop series on python for the Climate Physics master programme at the Institute for Marine and Atmospheric research Utrecht (IMAU), Utrecht University, held in September/October 2020.
 
 _To interact with the notebooks you can launch a binder instance by clicking the binder link button in the heading. This can take a short while to initialize. Also beware that it will shut down after 10 minutes of inactivity (and all changed contents will be lost)._
