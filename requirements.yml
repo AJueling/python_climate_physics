@@ -1,0 +1,12 @@
+dependencies:
+  - matplotlib==3.3.1
+  - networkx=2.4
+  - numpy==1.19.1
+  - pandas==1.1.2
+  - scipy==1.5.2
+  - tqdm==4.46.0
+  - watermark==2.0.2
+  - python-wget==3.2
+  - shapely
+  - Cartopy==0.18.0
+  - xarray==0.16.0
