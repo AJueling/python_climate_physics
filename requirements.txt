@@ -1,5 +1,6 @@
 numpy==1.19.1
 matplotlib==3.3.1
 scipy==1.5.2
-xarray
-cartopy
+pandas==1.1.2
+xarray==0.16.0
+cartopy==0.18.0
