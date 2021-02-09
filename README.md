@@ -23,7 +23,6 @@ This is the current course outline:
 2. [21.9.20 13:15-15:00] common python packages and basic plotting: numpy, matplotlib, scipy
 3. [28.9.20 13:15-15:00] working with geoscientic data: netcdf data format, pandas, xarray
 4. [5.10.20 13:15-15:00] mapping with cartopy, open science, and best practices
-(There is a chance I will shift the last two workshops by a week.)
 
 I will use jupyter notebooks for teaching because they can combine high quality documentation, code and output. For you to participate in the workshops you need to have a way to execute them. Please install Anaconda/Miniconda before the first workshop (see instruction below)!
 
@@ -38,21 +37,24 @@ I will sent one more email before the first workshop, the rest of the communicat
 ---
 ## Python/Jupyter installation instructions:
 
-For coherence, I strongly recommend we all use a python installation with the conda package manager.
+For coherence, I strongly recommend we all use a Python installation with the conda package manager.
 You have two (equally valid) options:
 1. Anaconda: https://docs.anaconda.com/anaconda/install/ or 
 2. Miniconda:  https://docs.conda.io/en/latest/miniconda.html
-The difference between them is that Anaconda includes many packages (including some you will never use) and consequently uses up quite some disk space.
-It features a graphical user interface. Miniconda, on the other hand, only includes the bare necessities and packages need to installed as they are needed, thus using a lot less disk space. 
+(NB: If you are on Linux or MacOS, you have a system python, but it is a good idea to install a separate Python version. Changing/adding to the system Python can lead to silly errors that are annoying to fix.)
+
+The difference between the conda distributions is that Anaconda includes many packages (including some you will never use) and consequently uses up quite some disk space. It features a graphical user interface. Miniconda, on the other hand, only includes the bare necessities and packages need to installed as they are needed, thus using a lot less disk space. 
 
 Once you have installed one of the two condas, there are two ways to work with jupyter notebooks:
 1. jupyter notebook app: the basic, but sufficient option
 2. jupyter lab app: the more advanced option
+
 With Anaconda you can choose either app from the graphical user interface.
+
 With Miniconda you need to install jupyter first.
 You can do this by running `conda install jupyter jupyterlab` and subsequently confirming.
 Then you can type in the terminal `jupyter notebook` or `jupyter lab` to start either of the two apps.
-Also see the documentation that is linked I the paragraph above.
+Also see the documentation that is linked in the paragraph above.
 
 ---
 ## Resources
