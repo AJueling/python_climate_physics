@@ -43,18 +43,28 @@ You have two (equally valid) options:
 2. Miniconda:  https://docs.conda.io/en/latest/miniconda.html
 (NB: If you are on Linux or MacOS, you have a system python, but it is a good idea to install a separate Python version. Changing/adding to the system Python can lead to silly errors that are annoying to fix.)
 
-The difference between the conda distributions is that Anaconda includes many packages (including some you will never use) and consequently uses up quite some disk space. It features a graphical user interface. Miniconda, on the other hand, only includes the bare necessities and packages need to installed as they are needed, thus using a lot less disk space. 
+The difference between the conda distributions is that Anaconda includes many packages (including some you will never use) and consequently uses up quite some disk space. It features a graphical user interface (the ![Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)). Miniconda, on the other hand, only includes the bare necessities and packages need to installed as they are needed, thus using a lot less disk space. 
 
 Once you have installed one of the two condas, there are two ways to work with jupyter notebooks:
 1. jupyter notebook app: the basic, but sufficient option
 2. jupyter lab app: the more advanced option
 
-With Anaconda you can choose either app from the graphical user interface.
+With Anaconda you can choose either app from the Navigator.
 
 With Miniconda you need to install jupyter first.
 You can do this by running `conda install jupyter jupyterlab` and subsequently confirming.
 Then you can type in the terminal `jupyter notebook` or `jupyter lab` to start either of the two apps.
 Also see the documentation that is linked in the paragraph above.
+
+### Managing packages
+
+The strength of Python is its extensive ecosystem of packages. There are pre-installed system libraries, but most packages need to be installed explicitely by you. Common packages we use include `numpy` (for array calculations) and `matplotlib` (for plotting). There are (again) several ways you can install packages:
+1. in the terminal type `conda install {package}`, you can install several at the same time `conda install {package1} {package2} {package3}`
+2. if you have Anaconda, you can use the Anaconda Navigator to search for and install packages
+
+You can list all the packages in the current environment by typing `conda list`.
+
+Sometimes conda does not "know" a package. Often these packages can be installed using an alternative channel (list of packages). Many smaller scientific packages are on the conda-forge channel and you can install them with `conda install -c conda-forge {special_package}`
 
 ---
 ## Resources
